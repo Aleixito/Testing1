@@ -16,7 +16,6 @@ class NumberCheckerTest extends TestCase
 
     public function testIsPositive()
     {
-        // Arrange
         $positiveNumberChecker = new NumberChecker(10);
         $negativeNumberChecker = new NumberChecker(-3);
 

@@ -1,0 +1,26 @@
+{
+    "name": "usuario/testing_1",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\Testing1\\": "."
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Usuario\\tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aleix",
+            "email": "aleixtomu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    }
+}

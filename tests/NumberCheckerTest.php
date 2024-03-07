@@ -9,7 +9,6 @@ class NumberCheckerTest extends TestCase
         $evenNumberChecker = new NumberChecker(6);
         $oddNumberChecker = new NumberChecker(5);
 
-        // Act & Assert
         $this->assertTrue($evenNumberChecker->isEven());
         $this->assertFalse($oddNumberChecker->isEven());
     }

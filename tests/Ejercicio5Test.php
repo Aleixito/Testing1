@@ -2,7 +2,7 @@
 <?php
 use PHPUnit\Framework\TestCase;  
 
-require_once 'NotasAlumno.php';
+require_once 'Ejercicio5.php';
 
 class NotasAlumnoTest extends TestCase {
 
